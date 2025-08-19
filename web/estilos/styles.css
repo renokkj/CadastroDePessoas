@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #222;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 12px 24px;
+    min-width: 130px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+}
+
+.actions {
+    margin-top: 25px;
+}
+
+.back-link {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.azul-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.azul-btn:hover {
+    background-color: #0056b3;
+}
+
+.vermelho-btn {
+    display: inline-block;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.vermelho-btn:hover {
+    background-color: #a71d2a;
+}
+
+.botoes-linha {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.acoes a {
+    text-decoration: none;
+}
+
+.busca-barra {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+table td:last-child,
+table th:last-child {
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+h4 span {
+    font-weight: bold;
+    color: green;
+}
+
+table th,
+table td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+}
+
+table td:nth-child(5), table th:nth-child(5) {
+    width: 160px;
+    text-align: center;
+}
+
+table th {
+    white-space: nowrap;
+}
+
+table td {
+    word-break: break-word;
+}
+
+table .btn {
+    padding: 6px 12px;
+    min-width: 70px;
+    font-size: 13px;
+}
+
+table td:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}
