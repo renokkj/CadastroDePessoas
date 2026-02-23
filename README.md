@@ -74,7 +74,7 @@ As tabelas foram criadas utilizando comandos SQL no MySQL Workbench.
 1. Clonar o repositório;
 2. Configurar o banco de dados MySQL;
 3. Atualizar as credenciais de conexão no arquivo de configuração;
-4. Executar a aplicação via IDE (IntelliJ, Eclipse ou similar).
+4. Executar a aplicação via IDE (utilizei Apache NetBeans).
 
 ---
 
